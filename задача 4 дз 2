@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    int a;
+    int b;
+    int c;
+    scanf("%d %d %d", &a, &b, &c);
+    if (a*a + b*b < c*c){
+        printf("остроугольный треугольник");
+    }
+    if (a*a + b*b > c *c){
+        printf("тупоугольный треугольник");
+    }
+    if (a*a + b*b == c*c){
+        printf("прямоугольный треугольник");
+    }
+}
